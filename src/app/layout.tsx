@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 
-import { Container } from "@/components/layout/container";
 import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
 import { Toaster } from "@/components/ui/toast";
@@ -50,9 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider>
           <div className="flex min-h-screen flex-col">
             <Navbar />
-            <main className="flex-1 pb-20">
-              <Container>{children}</Container>
-            </main>
+            <main className="flex-1 pb-20">{children}</main>
             <Footer />
           </div>
           <Toaster />
