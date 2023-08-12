@@ -17,12 +17,7 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col gap-4 min-[400px]:flex-row">
-            <a
-              href={CLAIM_WEBSITE_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="w-[9.3rem] flex-1"
-            >
+            <a href={CLAIM_WEBSITE_URL} target="_blank" rel="noreferrer" className="flex-1">
               <Button
                 color="neutral"
                 variant="outline"
@@ -33,7 +28,7 @@ export const Hero = () => {
                 Create TalentLayer ID
               </Button>
             </a>
-            <a href={DOCS_URL} target="_blank" rel="noreferrer" className="w-[9.3rem] flex-1">
+            <a href={DOCS_URL} target="_blank" rel="noreferrer" className="flex-1">
               <Button className="whitespace-nowrap" size="lg" block>
                 Start building
               </Button>
