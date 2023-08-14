@@ -4,24 +4,20 @@ import { Container } from "./layout/container";
 import { Button } from "./ui/button";
 import Image from "next/image";
 
-export const IntroducationSecion = () => {
+export const NewsletterSection = () => {
   return (
     <section className="bg-base-content py-24 text-center text-base-100 relative">
       <Container className="flex flex-col items-center gap-10">
       <div className="flex flex-col gap-10 order-2">
-        <h3 className="text-5xl font-bold">Build on a solid foundation</h3>
+        <h3 className="text-5xl font-bold">📰 TalentLayer in the news</h3>
         <p className="max-w-[40rem] text-xl text-base-100/80 sm:max-w-[40rem]">
-          TalentLayer is the only off-the-shelf, open source, composable developer toolkit for
-          building interoperable freelance, gig, and hiring platforms.
+        What have we been up to this month? Read our latest newsletter.
         </p>
-        <a href={DOCS_URL} target="_blank" rel="noreferrer">
+        <a href="https://medium.com/talentlayer" target="_blank" rel="noreferrer">
           <Button className="whitespace-nowrap" size="lg" block>
-            Start building
+            Read the newsletter
           </Button>
         </a>
-      </div>
-      <div className="order-1 sm:order-1">
-        <Image src="/tabs.webp" width={500} height={100} alt="TalentLayer" />
       </div>
       </Container>
     </section>

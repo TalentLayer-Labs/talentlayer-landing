@@ -10,8 +10,14 @@ export const Navbar = () => {
       <Container className="flex w-full items-center justify-between">
         <Logo />
         <div className="flex items-center gap-4">
-          <a href={DOCS_URL} target="_blank" rel="noreferrer" className="hover:text-primary">
-            Docs
+          <a href="https://docs.talentlayer.org/" target="_blank" rel="noreferrer" className="hover:text-primary">
+            Documentation
+          </a>
+          <a href="https://medium.com/talentlayer" target="_blank" rel="noreferrer" className="hover:text-primary">
+            Blog
+          </a>
+          <a href="https://linktr.ee/talentlayer" target="_blank" rel="noreferrer" className="hover:text-primary">
+            Socials
           </a>
           <ThemeToggle />
         </div>
