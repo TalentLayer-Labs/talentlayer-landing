@@ -9,7 +9,9 @@ export const StarterKitSection = () => {
     <section className="relative bg-base-content text-base-100">
       <Container className="relative flex flex-col items-center gap-20 py-10 md:flex-row">
         <div className="order-2 flex flex-col gap-10">
-          <h1 className="text-6xl font-bold">meet StarterKit</h1>
+          <h1 className="text-6xl font-bold">
+            meet <span className="text-primary underline">StarterKit</span>
+          </h1>
           <p className="max-w-[40rem] text-xl text-base-100 sm:max-w-[40rem]">
             StarterKit is your fastest way to get started building your mobile-first hiring
             platform.

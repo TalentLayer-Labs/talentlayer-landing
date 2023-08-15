@@ -9,7 +9,7 @@ export const Footer = () => {
       <Container>
         <div className="flex flex-wrap items-center justify-between gap-4 border-t border-base-300/50 py-6 text-sm">
           <a href={DOCS_URL} className="shrink-0 md:flex-1" target="_blank" rel="noreferrer">
-            <p>TalentLayer Labs OU, 2023</p>
+            <p>TalentLayer, 2023</p>
           </a>
           <a
             href="https://docs.talentlayer.org/quick-start-integration-guide"

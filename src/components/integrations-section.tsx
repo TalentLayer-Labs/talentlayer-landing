@@ -58,7 +58,9 @@ export const IntegrationsSection = () => {
   return (
     <section>
       <Container className="flex flex-col gap-6 py-32">
-        <h3 className="max-w-[44rem] text-5xl font-bold">what are people building?</h3>
+        <h3 className="max-w-[44rem] text-5xl font-bold">
+          what are people <span className="italic text-primary">building</span>?
+        </h3>
         <p className="max-w-[40rem] text-xl sm:max-w-[40rem]">
           teams from around the world are building hiring tech using TalentLayer. check out a few of
           them below!

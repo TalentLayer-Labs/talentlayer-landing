@@ -6,7 +6,8 @@ export const VisionSection = () => {
     <section className="bg-base-content py-24 text-base-100">
       <Container className="flex flex-col items-start gap-6">
         <h3 className="mb-2 text-5xl font-bold">
-          👩 empower your users with interoperable reputation
+          👩 empower your users with{" "}
+          <span className="italic text-primary">interoperable reputation</span>
         </h3>
         <p className="text-base-100/80">
           TalentLayer enables workers and hirers to grow one unified and user-owned reputation

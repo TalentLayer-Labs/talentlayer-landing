@@ -8,7 +8,9 @@ export const TeamSection = () => {
     <section className="relative py-24 text-center">
       <Container className="flex flex-col items-center gap-10">
         <div className="order-2 flex flex-col gap-1">
-          <h3 className="text-5xl font-bold">an open-source ethos</h3>
+          <h3 className="text-5xl font-bold">
+            an <span className="text-primary">open-source</span> ethos
+          </h3>
           <p className="max-w-[40rem] pt-5 text-xl sm:max-w-[40rem]">
             TalentLayer was built by a thriving community of open-source developers. everything we
             ship is 100% open-source from day 1. are you ready to join our ranks? start contributing
@@ -63,7 +65,9 @@ export const TeamSection = () => {
           <Image src="/people.png" width={800} height={100} alt="TalentLayer" />
         </div>
         <div className="order-2 flex flex-col gap-1">
-          <h3 className="text-5xl font-bold">proudly funded by...</h3>
+          <h3 className="text-5xl font-bold">
+            proudly <span className="text-primary">funded</span> by...
+          </h3>
           <p className="max-w-[40rem] pt-5 text-xl sm:max-w-[40rem]">
             TalentLayer has been funded by grants from The European Union, Lens Protocol, Filecoin
             Foundation and others. we&apos;ve accepted small investments as part of accelerators.

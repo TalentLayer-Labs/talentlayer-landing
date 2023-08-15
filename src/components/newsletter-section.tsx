@@ -6,7 +6,9 @@ export const NewsletterSection = () => {
     <section className="relative bg-base-content py-24 text-center text-base-100">
       <Container className="flex flex-col items-center gap-10">
         <div className="order-2 flex flex-col gap-10">
-          <h3 className="text-5xl font-bold">📰 TalentLayer in the news</h3>
+          <h3 className="text-5xl font-bold">
+            📰 TalentLayer in<span className="text-primary"> the news</span>
+          </h3>
           <p className="max-w-[40rem] text-xl text-base-100/80 sm:max-w-[40rem]">
             what have we been up to this month? read our latest newsletter.
           </p>
