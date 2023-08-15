@@ -8,10 +8,10 @@ import { Container } from "./layout/container";
 export const Hero = () => {
   return (
     <section className="relative">
-      <Container className="relative flex flex-col items-center gap-20 py-40 md:flex-row">
+      <Container className="relative flex flex-col items-center gap-20 pb-40 pt-14 sm:pt-40 md:flex-row">
         <div className="order-2 flex flex-col gap-10">
           <h1 className="text-6xl font-bold">
-            building <a className="text-primary underline">work tech</a> doesn&apos;t have to be
+            building <a className="text-primary underline">work tech</a> doesn&apos;t have to be{" "}
             <a className="text-6xl font-bold text-primary">
               <a className="italic">hard work</a>.
             </a>
@@ -40,7 +40,7 @@ export const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="order-1 sm:order-3">
+        <div className="order-1 hidden sm:order-3 sm:block">
           <Image src="/hero.webp" width={800} height={600} alt="TalentLayer" />
         </div>
       </Container>
