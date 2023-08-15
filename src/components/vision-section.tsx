@@ -15,9 +15,8 @@ export const VisionSection = () => {
         <div className="flex flex-col gap-4 min-[500px]:flex-row">
             <a href="https://docs.talentlayer.org/basics/basics/what-is-talentlayer-id" target="_blank" rel="noreferrer" className="flex-1">
               <Button
-                color="primary"
-                variant="outline"
-                className="whitespace-nowrap"
+                color="secondary"
+                className="whitespace-nowrap text-black"
                 size="lg"
                 block
               >

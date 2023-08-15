@@ -75,7 +75,7 @@ export const IntegrationsSection = () => {
             title="WorkX"
             description="ai-powered hiring marketplace; get real-time reccomendations, proposal/job post-writing suggestions, and more"
             buttonLabel="register today"
-            buttonHref={DOCS_URL}
+            buttonHref="https://workx.io/"
             tag="👋 public beta"
             tagColor="success"
           />
@@ -84,7 +84,7 @@ export const IntegrationsSection = () => {
             title="WorkPod"
             description="bounty platform for hiring top independent security auditors"
             buttonLabel="register today"
-            buttonHref={DOCS_URL}
+            buttonHref="https://www.workpodapp.com/"
             tag="🥷 private beta"
             tagColor="info"
           />
@@ -93,7 +93,7 @@ export const IntegrationsSection = () => {
             title="BeeTogether"
             description="freelance collective management platform"
             buttonLabel="view the project"
-            buttonHref={DOCS_URL}
+            buttonHref="https://www.beetogether.work/"
             tag="🏆 hackathon winner"
             tagColor="warning"
           />
@@ -102,7 +102,7 @@ export const IntegrationsSection = () => {
             title="ZKPay"
             description="privacy-centric payroll application"
             buttonLabel="view the project"
-            buttonHref={DOCS_URL}
+            buttonHref="https://www.zk-pay.io/"
             tag="🏆 hackathon winner"
             tagColor="warning"
           />
@@ -111,7 +111,7 @@ export const IntegrationsSection = () => {
             title="Influlenser"
             description="influencer marketing marketplace"
             buttonLabel="view the project"
-            buttonHref={DOCS_URL}
+            buttonHref="https://ethglobal.com/showcase/influlenser-dcvrj"
             tag="🏆 hackathon winner"
             tagColor="warning"
           />
@@ -120,7 +120,7 @@ export const IntegrationsSection = () => {
             title="Trustky"
             description="privacy-centric digital resume builder"
             buttonLabel="view the project"
-            buttonHref={DOCS_URL}
+            buttonHref="https://trustky-rouge.vercel.app/"
             tag="🏆 hackathon winner"
             tagColor="warning"
           />
@@ -129,7 +129,7 @@ export const IntegrationsSection = () => {
             title="zkPOW"
             description="privacy-centric work reputation aggregator"
             buttonLabel="view the project"
-            buttonHref={DOCS_URL}
+            buttonHref="https://taikai.network/ethporto/hackathons/ethportohackathon2023/projects/clfd3v5pp104522101yfjvhrngbv/idea"
             tag="🏆 hackathon winner"
             tagColor="warning"
           />
@@ -138,7 +138,7 @@ export const IntegrationsSection = () => {
             title="where's my project?"
             description="see something missing? contact us!"
             buttonLabel="☎️  contact us"
-            buttonHref={DOCS_URL}
+            buttonHref="https://docs.talentlayer.org/quick-start-integration-guide"
             tag="🍀 awesome project"
             tagColor="info"
           />

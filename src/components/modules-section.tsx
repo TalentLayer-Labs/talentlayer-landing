@@ -74,28 +74,28 @@ export const ModulesSection = () => {
             title="escrow and dispute resolution"
             description="configurable escrow: from milestone-based to hourly payments. multiple options for dispute resolution."
             buttonLabel="escrow docs"
-            buttonHref={DOCS_URL}
+            buttonHref="https://docs.talentlayer.org/basics/basics/escrow-and-dispute"
           />
           <ModuleCard
             icon={<HandRaisedIcon />}
             title="services & proposals system"
             description="rails for work posts, accepting proposals, and job pooling - sharing liquidity across integrated platforms to help more jobs get filled."
             buttonLabel="services docs"
-            buttonHref={DOCS_URL}
+            buttonHref="https://docs.talentlayer.org/basics/basics/jobs-and-proposals"
           />
           <ModuleCard
             icon={<CheckBadgeIcon />}
             title="universal reviews system"
             description="a lightweight user profile and review system tailored to work reputation and composable with other identity solutions"
             buttonLabel="reveiw docs"
-            buttonHref={DOCS_URL}
+            buttonHref="https://docs.talentlayer.org/basics/basics/reviews-and-reputation"
           />
           <ModuleCard
             icon={<StarIcon />}
             title="TalentLayer SDK"
             description="fork-able UI elements to make it faster than ever to integrate with TalentLayer. an example app to help you get started."
             buttonLabel="fork the demo app"
-            buttonHref={DOCS_URL}
+            buttonHref="https://docs.talentlayer.org/technical-guides/dapp-setup-1"
           />
         </div>
       </Container>
