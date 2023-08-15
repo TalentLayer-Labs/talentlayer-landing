@@ -3,6 +3,7 @@ import {
   CheckBadgeIcon,
   CurrencyDollarIcon,
   StarIcon,
+  HandRaisedIcon
 } from "@heroicons/react/24/outline";
 import { clsx } from "clsx";
 import { ReactNode } from "react";
@@ -55,45 +56,45 @@ export const ModulesSection = () => {
     <section>
       <Container className="flex flex-col gap-6 py-32">
         <h3 className="max-w-[44rem] text-5xl font-bold">
-          Advanced tools specialized for work platforms
+          advanced tools specialized for work platforms
         </h3>
         <p className="max-w-[50rem] text-lg font-bold text-base-content">
-          Don’t settle for retrofitting generalized developer tools or spending months building your
-          backend from scratch. Use the toolkit designed for work marketplaces.
+          don’t settle for retrofitting generalized developer tools or spending months building your
+          backend from scratch. use the toolkit designed for work marketplaces.
         </p>
         <p className="max-w-[50rem] text-lg text-base-content-neutral">
-          Launch your platform fast with configurable escrow, user-owned identities, jobs and
-          proposals, and more modular components. All open-source. All interoperable. Focus on your
+          launch your platform fast with configurable escrow, user-owned identities, jobs and
+          proposals, and more modular components. all open-source. all interoperable. focus on your
           platform’s iconic UX and stand-out features; let the engine for work marketplaces handle
           the rest.
         </p>
         <div className="mb-6 mt-10 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2">
           <ModuleCard
-            icon={<AcademicCapIcon />}
-            title="Escrow and Dispute Resolution"
-            description="Configurable escrow: from milestone-based to hourly payments. Multiple options for dispute resolution."
-            buttonLabel="Escrow Docs"
+            icon={<CurrencyDollarIcon />} 
+            title="escrow and dispute resolution"
+            description="configurable escrow: from milestone-based to hourly payments. multiple options for dispute resolution."
+            buttonLabel="escrow docs"
             buttonHref={DOCS_URL}
           />
           <ModuleCard
-            icon={<CurrencyDollarIcon />}
-            title="Services & Proposals System"
-            description="Rails for work posts, accepting proposals, and job pooling - sharing liquidity across integrated platforms to help more jobs get filled."
-            buttonLabel="Services Docs"
+            icon={<HandRaisedIcon />}
+            title="services & proposals system"
+            description="rails for work posts, accepting proposals, and job pooling - sharing liquidity across integrated platforms to help more jobs get filled."
+            buttonLabel="services docs"
             buttonHref={DOCS_URL}
           />
           <ModuleCard
             icon={<CheckBadgeIcon />}
-            title="Universal Reviews System"
-            description="A lightweight user profile and review system tailored to work reputation and composable with other identity solutions"
-            buttonLabel="Reveiw Docs"
+            title="universal reviews system"
+            description="a lightweight user profile and review system tailored to work reputation and composable with other identity solutions"
+            buttonLabel="reveiw docs"
             buttonHref={DOCS_URL}
           />
           <ModuleCard
             icon={<StarIcon />}
             title="TalentLayer SDK"
-            description="Fork-able UI elements to make it faster than ever to integrate with TalentLayer. An example app to help you get started."
-            buttonLabel="Fork the demo app"
+            description="fork-able UI elements to make it faster than ever to integrate with TalentLayer. an example app to help you get started."
+            buttonLabel="fork the demo app"
             buttonHref={DOCS_URL}
           />
         </div>

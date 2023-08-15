@@ -16,7 +16,7 @@ export const Footer = () => {
                 className="whitespace-nowrap"
                 size="lg"
                 block>
-            ☎️  Contact Us
+            ☎️  contact us
           </Button>
         </a>
         </div>

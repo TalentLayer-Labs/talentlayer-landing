@@ -11,13 +11,13 @@ export const Navbar = () => {
         <Logo />
         <div className="flex items-center gap-4">
           <a href="https://docs.talentlayer.org/" target="_blank" rel="noreferrer" className="hover:text-primary">
-            Documentation
+            documentation
           </a>
           <a href="https://medium.com/talentlayer" target="_blank" rel="noreferrer" className="hover:text-primary">
-            Blog
+            blog
           </a>
           <a href="https://linktr.ee/talentlayer" target="_blank" rel="noreferrer" className="hover:text-primary">
-            Socials
+            socials
           </a>
           <ThemeToggle />
         </div>
