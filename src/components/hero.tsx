@@ -12,9 +12,7 @@ export const Hero = () => {
         <div className="order-2 flex flex-col gap-10">
           <h1 className="text-6xl font-bold">
             building <a className="text-primary underline">work tech</a> doesn&apos;t have to be{" "}
-            <a className="text-6xl font-bold text-primary">
-              <a className="italic">hard work</a>.
-            </a>
+            <span className="text-6xl font-bold italic text-primary">hard work</span>.
           </h1>
           <p className="max-w-[40rem] text-xl text-base-content-neutral sm:max-w-[40rem]">
             TalentLayer is an 🌐 open protocol and ⚒️ developer toolkit for building better hiring
