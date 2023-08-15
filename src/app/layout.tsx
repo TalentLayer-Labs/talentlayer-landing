@@ -7,14 +7,14 @@ import { Toaster } from "@/components/ui/toast";
 import { ThemeProvider } from "@/providers/theme-provider";
 
 import type { Metadata } from "next";
-
+  
 const inter = Montserrat({ subsets: ["latin"], weight: ['400'] });
 
 export const siteConfig = {
-  name: "My App",
-  description: "This is my app",
-  url: "https://localhost:3000",
-  ogImage: "https://localhost:3000/og.jpg",
+  name: "TalentLayer",
+  description: "TalentLayer is an open protocol and developer toolkit for building better hiring platforms",
+  url: "https://talentlayer.org",
+  ogImage: "https://talentlayer.org/og.png",
 };
 
 export const metadata: Metadata = {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "en_UK",
     url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@myhandle",
+    creator: "@talentlayer",
   },
 };
 

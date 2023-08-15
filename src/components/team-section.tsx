@@ -16,7 +16,7 @@ export const TeamSection = () => {
         <div className="flex flex-col sm:flex-row gap-3 mt-6">
         <a href="https://docs.talentlayer.org/open-source-contribution" target="_blank" rel="noreferrer" className="flex-1">
           <Button className="" size="lg" block>
-          ✊ join us
+          🦝 join us
           </Button>
         </a>
         <a href="https://trello.com/b/SJkiGHcx/engineering-board" target="_blank" rel="noreferrer" variant="outline" className="flex-1">
@@ -25,7 +25,7 @@ export const TeamSection = () => {
                 className="whitespace-nowrap"
                 size="lg"
                 block>
-            ✅ our trello
+            🍀 our trello
           </Button>
           </a>
           <a href="https://github.com/TalentLayer" variant="outline" target="_blank" rel="noreferrer" className="flex-1">

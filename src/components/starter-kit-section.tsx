@@ -17,7 +17,7 @@ export const StarterKitSection = () => {
           <p className="max-w-[40rem] text-s text-base-100 sm:max-w-[40rem]">
           ⭐ ready to use NextJS DAPP</p>
           <p className="max-w-[40rem] text-s text-base-100 sm:max-w-[40rem]">
-          ⭐ web 3 enabled</p>
+          ⭐ TalentLayer enabled</p>
           <p className="max-w-[40rem] text-s text-base-100 sm:max-w-[40rem]">
           ⭐ 100% open-source</p>
           </div>
@@ -30,7 +30,7 @@ export const StarterKitSection = () => {
                 size="lg"
                 block
               >
-                Learn More
+                learn More
               </Button>
             </a>
           </div>
