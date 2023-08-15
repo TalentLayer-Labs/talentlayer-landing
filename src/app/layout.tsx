@@ -7,12 +7,13 @@ import { Toaster } from "@/components/ui/toast";
 import { ThemeProvider } from "@/providers/theme-provider";
 
 import type { Metadata } from "next";
-  
-const inter = Montserrat({ subsets: ["latin"], weight: ['400'] });
 
-export const siteConfig = {
+const inter = Montserrat({ subsets: ["latin"], weight: ["400"] });
+
+const siteConfig = {
   name: "TalentLayer",
-  description: "TalentLayer is an open protocol and developer toolkit for building better hiring platforms",
+  description:
+    "TalentLayer is an open protocol and developer toolkit for building better hiring platforms",
   url: "https://talentlayer.org",
   ogImage: "https://talentlayer.org/og.png",
 };
