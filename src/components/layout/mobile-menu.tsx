@@ -1,6 +1,5 @@
 import { Transition } from "@headlessui/react";
 import { clsx } from "clsx";
-import Link from "next/link";
 
 import type { Dispatch, SetStateAction } from "react";
 
@@ -12,13 +11,15 @@ interface NavItemProps {
 
 const NavItem = ({ text, href, onClick }: NavItemProps) => {
   return (
-    <Link
+    <a
       href={href}
+      target="_blank"
+      rel="noreferrer"
       onClick={onClick}
       className={clsx("rounded-btn flex items-center px-4 py-2 font-medium hover:bg-base-200")}
     >
       {text}
-    </Link>
+    </a>
   );
 };
 
@@ -47,7 +48,10 @@ export const MobileMenu = ({ showMenu, setShowMenu, className }: MobileMenuProps
       <div className="rounded-b-box absolute top-full z-30 w-full bg-base-100 pb-6">
         <div className="container">
           <nav className="flex flex-col space-y-2">
-            <NavItem text="Create course" href="/create" onClick={closeMenu} />
+            <NavItem text="docs" href="https://docs.talentlayer.org/" />
+            <NavItem text="blog" href="https://medium.com/talentlayer" />
+            <NavItem text="social media" href="https://linktr.ee/talentlayer" />
+            <NavItem text="claim TLID" href="https://claim.talentlayer.org/" />
           </nav>
         </div>
       </div>
