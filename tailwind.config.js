@@ -30,20 +30,20 @@ module.exports = {
       {
         light: {
           ...require("daisyui/src/theming/themes")["[data-theme=light]"],
-          "primary": "#1d4ed8",
-          "secondary": "#fbbf24",
+          primary: "#3a6af0",
+          secondary: "#fbbf24",
           "base-content": "#0a0a0a",
           "base-100": "#ffffff",
           "base-200": "#ffffff",
           "--btn-text-case": "none",
-          "--rounded-btn": "0.75rem"
+          "--rounded-btn": "0.75rem",
         },
       },
       {
         dark: {
           ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
-          "primary": "#1d4ed8",
-          "secondary": "#fbbf24",
+          primary: "#3a6af0",
+          secondary: "#fbbf24",
           "base-100": "#0a0a0a",
           "base-content": "#fff",
           "--btn-text-case": "none",
