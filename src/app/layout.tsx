@@ -1,12 +1,12 @@
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 
-import type { Metadata } from "next";
-
 import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
 import { Toaster } from "@/components/ui/toast";
 import { ThemeProvider } from "@/providers/theme-provider";
+
+import type { Metadata } from "next";
 
 const inter = Montserrat({ subsets: ["latin"], weight: ["400"] });
 

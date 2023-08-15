@@ -1,15 +1,13 @@
 import {
-  AcademicCapIcon,
   CheckBadgeIcon,
   CurrencyDollarIcon,
   StarIcon,
-  HandRaisedIcon
+  HandRaisedIcon,
 } from "@heroicons/react/24/outline";
 import { clsx } from "clsx";
 import { ReactNode } from "react";
 
 import { Container } from "@/components/layout/container";
-import { DOCS_URL } from "@/constants/urls";
 
 import { Button } from "./ui/button";
 
@@ -70,7 +68,7 @@ export const ModulesSection = () => {
         </p>
         <div className="mb-6 mt-10 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2">
           <ModuleCard
-            icon={<CurrencyDollarIcon />} 
+            icon={<CurrencyDollarIcon />}
             title="escrow and dispute resolution"
             description="configurable escrow: from milestone-based to hourly payments. multiple options for dispute resolution."
             buttonLabel="escrow docs"

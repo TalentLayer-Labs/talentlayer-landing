@@ -6,30 +6,30 @@ import { Container } from "./layout/container";
 
 export const StarterKitSection = () => {
   return (
-    <section className="bg-base-content text-base-100 relative">
+    <section className="relative bg-base-content text-base-100">
       <Container className="relative flex flex-col items-center gap-20 py-10 md:flex-row">
-        <div className="flex flex-col gap-10 order-2">
+        <div className="order-2 flex flex-col gap-10">
           <h1 className="text-6xl font-bold">meet StarterKit</h1>
           <p className="max-w-[40rem] text-xl text-base-100 sm:max-w-[40rem]">
-          StarterKit is your fastest way to get started building your mobile-first hiring platform.
+            StarterKit is your fastest way to get started building your mobile-first hiring
+            platform.
           </p>
           <div className="flex flex-col gap-4">
-          <p className="max-w-[40rem] text-s text-base-100 sm:max-w-[40rem]">
-          ⭐ ready to use NextJS DAPP</p>
-          <p className="max-w-[40rem] text-s text-base-100 sm:max-w-[40rem]">
-          ⭐ TalentLayer enabled</p>
-          <p className="max-w-[40rem] text-s text-base-100 sm:max-w-[40rem]">
-          ⭐ 100% open-source</p>
+            <p className="max-w-[40rem] text-base-100 sm:max-w-[40rem]">
+              ⭐ ready to use NextJS DAPP
+            </p>
+            <p className="max-w-[40rem] text-base-100 sm:max-w-[40rem]">⭐ TalentLayer enabled</p>
+            <p className="max-w-[40rem] text-base-100 sm:max-w-[40rem]">⭐ 100% open-source</p>
           </div>
 
-
           <div className="flex flex-col gap-4 min-[500px]:flex-row">
-            <a href="https://starter-kit-xmtp-tl.vercel.app/" target="_blank" rel="noreferrer" className="whitespace-nowrap flex-1">
-              <Button
-                className="whitespace-nowrap"
-                size="lg"
-                block
-              >
+            <a
+              href="https://starter-kit-xmtp-tl.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="flex-1 whitespace-nowrap"
+            >
+              <Button className="whitespace-nowrap" size="lg" block>
                 learn More
               </Button>
             </a>

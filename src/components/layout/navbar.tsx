@@ -2,7 +2,6 @@
 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { clsx } from "clsx";
-import Link from "next/link";
 import { useState } from "react";
 
 import { Logo } from "@/components/logo";
@@ -38,10 +37,10 @@ export const Navbar = () => {
         <Logo className="hidden sm:block" />
         <div className="flex items-center gap-4">
           <div className="hidden items-center gap-2 md:flex">
-            <NavItem text="documentation" href="https://docs.talentlayer.org/" />
+            <NavItem text="docs" href="https://docs.talentlayer.org/" />
             <NavItem text="blog" href="https://medium.com/talentlayer" />
             <NavItem text="social media" href="https://linktr.ee/talentlayer" />
-            <NavItem text="claim TalentLayer ID" href="https://claim.talentlayer.org/" />
+            <NavItem text="claim TLID" href="https://claim.talentlayer.org/" />
           </div>
           <ThemeToggle />
 
