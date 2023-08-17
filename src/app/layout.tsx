@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Montserrat } from "next/font/google";
+import localFont from "next/font/local";
 
 import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
@@ -7,12 +7,17 @@ import { Toaster } from "@/components/ui/toast";
 import { ThemeProvider } from "@/providers/theme-provider";
 
 import type { Metadata } from "next";
-  
-const inter = Montserrat({ subsets: ["latin"], weight: ['400'] });
+
+// Font files can be colocated inside of `app`
+const clashDisplay = localFont({
+  src: "./clash-display.ttf",
+  display: "swap",
+});
 
 export const siteConfig = {
   name: "TalentLayer",
-  description: "TalentLayer is an open protocol and developer toolkit for building better hiring platforms",
+  description:
+    "TalentLayer is an open protocol and developer toolkit for building better hiring platforms",
   url: "https://talentlayer.org",
   ogImage: "https://talentlayer.org/og.png",
 };
@@ -45,7 +50,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={clashDisplay.className}>
         <ThemeProvider>
           <div className="flex min-h-screen flex-col">
             <Navbar />
