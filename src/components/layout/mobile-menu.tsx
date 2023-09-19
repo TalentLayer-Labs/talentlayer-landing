@@ -51,6 +51,7 @@ export const MobileMenu = ({ showMenu, setShowMenu, className }: MobileMenuProps
             <NavItem text="docs" href="https://docs.talentlayer.org/" />
             <NavItem text="blog" href="https://medium.com/talentlayer" />
             <NavItem text="social media" href="https://linktr.ee/talentlayer" />
+            <NavItem text="litepaper" href="#" />
             <NavItem text="claim TLID" href="https://claim.talentlayer.org/" />
           </nav>
         </div>

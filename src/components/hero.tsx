@@ -11,7 +11,7 @@ export const Hero = () => {
       <Container className="relative flex flex-col items-center gap-20 pb-40 pt-14 sm:pt-40 md:flex-row">
         <div className="order-2 flex flex-col gap-10">
           <h1 className="text-6xl font-bold">
-            building <a className="text-primary underline">work tech</a> doesn&apos;t have to be{" "}
+            building <a className="text-primary">work tech</a> doesn&apos;t have to be{" "}
             <span className="text-6xl font-bold italic text-primary">hard work</span>.
           </h1>
           <p className="max-w-[40rem] text-xl text-base-content-neutral sm:max-w-[40rem]">
@@ -28,11 +28,11 @@ export const Hero = () => {
                 size="lg"
                 block
               >
-                👩 create TalentLayer ID
+                👩 find work or hire
               </Button>
             </a>
             <a href={DOCS_URL} target="_blank" rel="noreferrer" className="flex-1">
-              <Button className="whitespace-nowrap" size="lg" block>
+              <Button color="primary" variant="prime" className="whitespace-nowrap" size="lg" block>
                 🛠️ start building
               </Button>
             </a>

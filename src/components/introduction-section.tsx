@@ -24,7 +24,7 @@ export const IntroducationSecion = () => {
           </a>
         </div>
         <div className="order-1 sm:order-1">
-          <Image src="/tabs.webp" width={700} height={100} alt="TalentLayer" />
+          <Image src="/diagram.png" width={700} height={100} alt="TalentLayer" />
         </div>
       </Container>
     </section>

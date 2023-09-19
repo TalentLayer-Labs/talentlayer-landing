@@ -5,7 +5,9 @@ import { ModulesSection } from "@/components/modules-section";
 import { NewsletterSection } from "@/components/newsletter-section";
 import { StarterKitSection } from "@/components/starter-kit-section";
 import { TeamSection } from "@/components/team-section";
+import { UserSection } from "@/components/user-section";
 import { VisionSection } from "@/components/vision-section";
+//import { TestSection } from "@/components/test-section";
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <IntroducationSecion />
       <ModulesSection />
       <VisionSection />
+      <UserSection />
       <IntegrationsSection />
       <StarterKitSection />
       <TeamSection />

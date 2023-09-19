@@ -54,7 +54,7 @@ export const ModulesSection = () => {
     <section>
       <Container className="flex flex-col gap-6 py-32">
         <h3 className="max-w-[44rem] text-5xl font-bold">
-          advanced tools <span className="text-primary underline">specialized</span> for{" "}
+          advanced tools <span className="text-primary">specialized</span> for{" "}
           <span className="italic">work platforms</span>
         </h3>
         <p className="max-w-[50rem] text-lg font-bold text-base-content">
