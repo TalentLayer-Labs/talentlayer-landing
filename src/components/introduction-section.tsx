@@ -35,7 +35,7 @@ export const IntroducationSecion = () => {
           onClick={() => setShowVideo(true)}
         >
           <Image
-            src="/diagram.png"
+            src="/video.png"
             width={700}
             height={100}
             alt="TalentLayer"
