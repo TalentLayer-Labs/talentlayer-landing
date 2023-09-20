@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
-import { DOCS_URL, CLAIM_WEBSITE_URL } from "@/constants/urls";
+import { DOCS_URL } from "@/constants/urls";
 
 import { Container } from "./layout/container";
 
@@ -20,7 +20,7 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col gap-4 min-[500px]:flex-row">
-            <a href={CLAIM_WEBSITE_URL} target="_blank" rel="noreferrer" className="flex-1">
+            <a href="#user-section" className="flex-1">
               <Button
                 color="neutral"
                 variant="outline"
