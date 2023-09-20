@@ -30,7 +30,10 @@ export const IntroducationSecion = () => {
             </Button>
           </a>
         </div>
-        <div className="group relative order-1 sm:order-1" onClick={() => setShowVideo(true)}>
+        <div
+          className="group relative order-1 cursor-pointer sm:order-1"
+          onClick={() => setShowVideo(true)}
+        >
           <Image
             src="/diagram.png"
             width={700}
