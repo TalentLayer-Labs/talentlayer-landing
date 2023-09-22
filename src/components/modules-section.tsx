@@ -1,15 +1,13 @@
 import {
-  AcademicCapIcon,
   CheckBadgeIcon,
   CurrencyDollarIcon,
   StarIcon,
-  HandRaisedIcon
+  HandRaisedIcon,
 } from "@heroicons/react/24/outline";
 import { clsx } from "clsx";
 import { ReactNode } from "react";
 
 import { Container } from "@/components/layout/container";
-import { DOCS_URL } from "@/constants/urls";
 
 import { Button } from "./ui/button";
 
@@ -53,10 +51,11 @@ const ModuleCard = ({
 
 export const ModulesSection = () => {
   return (
-    <section>
+    <section id="tools">
       <Container className="flex flex-col gap-6 py-32">
         <h3 className="max-w-[44rem] text-5xl font-bold">
-          advanced tools specialized for work platforms
+          advanced tools <span className="text-primary">specialized</span> for{" "}
+          <span className="italic">work platforms</span>
         </h3>
         <p className="max-w-[50rem] text-lg font-bold text-base-content">
           don’t settle for retrofitting generalized developer tools or spending months building your
@@ -70,7 +69,7 @@ export const ModulesSection = () => {
         </p>
         <div className="mb-6 mt-10 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2">
           <ModuleCard
-            icon={<CurrencyDollarIcon />} 
+            icon={<CurrencyDollarIcon />}
             title="escrow and dispute resolution"
             description="configurable escrow: from milestone-based to hourly payments. multiple options for dispute resolution."
             buttonLabel="escrow docs"
@@ -92,10 +91,17 @@ export const ModulesSection = () => {
           />
           <ModuleCard
             icon={<StarIcon />}
-            title="TalentLayer SDK"
-            description="fork-able UI elements to make it faster than ever to integrate with TalentLayer. an example app to help you get started."
+            title="TalentLayer StarterKit"
+            description="fork-able mobile-first marketplace boilerplate to help you go to market fast."
             buttonLabel="fork the demo app"
             buttonHref="https://docs.talentlayer.org/technical-guides/dapp-setup-1"
+          />
+          <ModuleCard
+            icon={<StarIcon />}
+            title="TalentLayer SDK"
+            description="a React and Node JS SDK, complete with a UI library."
+            buttonLabel="coming soon"
+            buttonHref="https://github.com/TalentLayer/talentlayer-sdk"
           />
         </div>
       </Container>

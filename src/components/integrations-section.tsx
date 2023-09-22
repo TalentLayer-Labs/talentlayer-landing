@@ -1,18 +1,9 @@
-import {
-  AcademicCapIcon,
-  CheckBadgeIcon,
-  CurrencyDollarIcon,
-  StarIcon,
-} from "@heroicons/react/24/outline";
 import { clsx } from "clsx";
-import { ReactNode } from "react";
+import Image from "next/image";
 
 import { Container } from "@/components/layout/container";
-import { DOCS_URL } from "@/constants/urls";
 
 import { Button, ButtonProps } from "./ui/button";
-
-import Image from "next/image";
 
 interface IntegrationCardProps {
   title: string;
@@ -25,7 +16,7 @@ interface IntegrationCardProps {
   tagColor: ButtonColor;
 }
 
-type ButtonColor = ButtonProps['color']
+type ButtonColor = ButtonProps["color"];
 
 const IntegrationCard = ({
   title,
@@ -44,12 +35,14 @@ const IntegrationCard = ({
         className,
       )}
     >
-      <div className="flex flex-col gap-4 w-full">
+      <div className="flex w-full flex-col gap-4">
         <div className="relative h-[200px] w-full">
           <Image src={icon} alt="platform image" className="rounded-box object-cover" fill />
         </div>
         <a target="_blank" rel="noreferrer" className="block">
-          <Button className="mt-1" color={tagColor} size={"xs"} >{tag}</Button>
+          <Button className="mt-1" color={tagColor} size={"xs"}>
+            {tag}
+          </Button>
         </a>
         <h4 className="text-xl font-bold">{title}</h4>
         <p className="text-base-content-neutral">{description}</p>
@@ -63,11 +56,14 @@ const IntegrationCard = ({
 
 export const IntegrationsSection = () => {
   return (
-    <section>
+    <section id="platforms">
       <Container className="flex flex-col gap-6 py-32">
-        <h3 className="max-w-[44rem] text-5xl font-bold">what are people building?</h3>
+        <h3 className="max-w-[44rem] text-5xl font-bold">
+          what are people <span className="italic text-primary">building</span>?
+        </h3>
         <p className="max-w-[40rem] text-xl sm:max-w-[40rem]">
-          teams from around the world are building hiring tech using TalentLayer. check out a few of them below!
+          teams from around the world are building hiring tech using TalentLayer. check out a few of
+          them below!
         </p>
         <div className="mb-6 mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
           <IntegrationCard

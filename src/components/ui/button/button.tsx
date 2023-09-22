@@ -31,6 +31,7 @@ const buttonVariants = cva(
         solid: "",
         outline: "btn-outline",
         ghost: "btn-ghost disabled:bg-transparent disabled:text-opacity-30",
+        prime: "btn-primary",
         link: "btn-link disabled:bg-transparent disabled:text-opacity-30",
       },
     },

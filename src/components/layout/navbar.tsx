@@ -2,7 +2,6 @@
 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { clsx } from "clsx";
-import Link from "next/link";
 import { useState } from "react";
 
 import { Logo } from "@/components/logo";
@@ -35,13 +34,17 @@ export const Navbar = () => {
   return (
     <header className="relative">
       <Container className="flex h-20 w-full items-center justify-between">
-        <Logo className="hidden sm:block" />
+        <Logo className="" />
         <div className="flex items-center gap-4">
           <div className="hidden items-center gap-2 md:flex">
-            <NavItem text="documentation" href="https://docs.talentlayer.org/" />
+            <NavItem text="docs" href="https://docs.talentlayer.org/" />
             <NavItem text="blog" href="https://medium.com/talentlayer" />
             <NavItem text="social media" href="https://linktr.ee/talentlayer" />
-            <NavItem text="claim TalentLayer ID" href="https://claim.talentlayer.org/" />
+            <NavItem
+              text="litepaper"
+              href="https://github.com/TalentLayer/talentlayer-litepaper/blob/main/TalentLayer%20Litepaper.pdf"
+            />
+            <NavItem text="claim TLID" href="https://claim.talentlayer.org/" />
           </div>
           <ThemeToggle />
 
