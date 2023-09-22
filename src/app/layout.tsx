@@ -14,8 +14,8 @@ const siteConfig = {
   name: "TalentLayer",
   description:
     "TalentLayer is an open protocol and developer toolkit for building better hiring platforms",
-  url: "https://talentlayer.org",
-  ogImage: "https://talentlayer.org/og.png",
+  url: "https://www.talentlayer.org",
+  ogImage: "https://www.talentlayer.org/og.png",
 };
 
 export const metadata: Metadata = {
