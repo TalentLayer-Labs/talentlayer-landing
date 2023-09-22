@@ -49,6 +49,7 @@ export const MobileMenu = ({ showMenu, setShowMenu, className }: MobileMenuProps
         <div className="container">
           <nav className="flex flex-col space-y-2">
             <NavItem text="docs" href="https://docs.talentlayer.org/" />
+            <NavItem text="dune" href="https://dune.com/talentlayer/dashboard" />
             <NavItem text="blog" href="https://medium.com/talentlayer" />
             <NavItem text="social media" href="https://linktr.ee/talentlayer" />
             <NavItem

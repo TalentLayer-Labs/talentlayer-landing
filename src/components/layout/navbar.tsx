@@ -38,6 +38,7 @@ export const Navbar = () => {
         <div className="flex items-center gap-4">
           <div className="hidden items-center gap-2 md:flex">
             <NavItem text="docs" href="https://docs.talentlayer.org/" />
+            <NavItem text="dune" href="https://dune.com/talentlayer/dashboard" />
             <NavItem text="blog" href="https://medium.com/talentlayer" />
             <NavItem text="social media" href="https://linktr.ee/talentlayer" />
             <NavItem
