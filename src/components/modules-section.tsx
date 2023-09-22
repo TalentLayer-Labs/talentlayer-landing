@@ -52,7 +52,7 @@ const ModuleCard = ({
 export const ModulesSection = () => {
   return (
     <section id="tools">
-      <Container className="flex flex-col gap-6 py-32">
+      <Container className="flex flex-col gap-6 py-16 sm:py-32">
         <h3 className="max-w-[44rem] text-5xl font-bold">
           advanced tools <span className="text-primary">specialized</span> for{" "}
           <span className="italic">work platforms</span>

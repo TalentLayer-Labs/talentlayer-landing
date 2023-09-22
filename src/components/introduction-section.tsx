@@ -14,7 +14,7 @@ export const IntroducationSecion = () => {
   const [showVideo, setShowVideo] = useState(false);
 
   return (
-    <section className="relative bg-base-content py-24 text-center text-base-100">
+    <section className="relative bg-base-content py-16 sm:py-24 text-center text-base-100">
       <Container className="flex flex-col items-center gap-10">
         <div className="order-3 flex flex-col gap-10 text-center">
           <h3 className="pt-10 text-5xl font-bold">

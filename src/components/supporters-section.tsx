@@ -53,7 +53,7 @@ const IntegrationCard = ({
 export const SupportersSection = () => {
   return (
     <section>
-      <Container className="flex flex-col gap-6 py-32">
+      <Container className="flex flex-col gap-6 py-16 sm:py-32">
         <h3 className="max-w-[44rem] text-5xl font-bold">What are people building?</h3>
         <div className="mb-6 mt-10 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2">
           <IntegrationCard

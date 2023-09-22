@@ -54,7 +54,7 @@ export const VisionSection = () => {
         <div className="rounded-box bg-base-300 p-10">
           <div className="order-2 flex flex-col gap-10 ">
             <h2 className="mb-0 text-3xl text-black">TalentLayer for platforms</h2>
-            <h3 className="mb-2 text-5xl font-bold text-black">
+            <h3 className="mb-2 text-3xl sm:text-5xl font-bold text-black">
               💪 empower your users with{" "}
               <span className="italic text-primary">interoperable reputation</span>
             </h3>

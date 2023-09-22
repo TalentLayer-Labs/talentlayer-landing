@@ -57,7 +57,7 @@ const IntegrationCard = ({
 export const IntegrationsSection = () => {
   return (
     <section id="platforms">
-      <Container className="flex flex-col gap-6 py-32">
+      <Container className="flex flex-col gap-6 py-16 sm:py-32">
         <h3 className="max-w-[44rem] text-5xl font-bold">
           what are people <span className="italic text-primary">building</span>?
         </h3>

@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 
 export const TeamSection = () => {
   return (
-    <section className="relative py-24 text-center">
+    <section className="relative py-16 sm:py-24 text-center">
       <Container className="flex flex-col items-center gap-10">
         <div className="order-2 flex flex-col gap-1">
           <h3 className="text-5xl font-bold">

@@ -7,7 +7,7 @@ import { Container } from "./layout/container";
 export const StarterKitSection = () => {
   return (
     <section className="relative bg-primary text-base-100">
-      <Container className="relative flex flex-col items-center gap-20 py-10 md:flex-row">
+      <Container className="relative flex flex-col items-center gap-20 py-6 sm:py-10 md:flex-row">
         <div className="order-2 flex flex-col gap-10">
           <h1 className="text-6xl font-bold">
             meet <span className="text-secondary">StarterKit</span>

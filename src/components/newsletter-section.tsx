@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export const NewsletterSection = () => {
   return (
-    <section className="relative bg-base-content py-24 text-center text-base-100">
+    <section className="relative bg-base-content py-16 sm:py-24 text-center text-base-100">
       <Container className="flex flex-col items-center gap-10">
         <div className="order-2 flex flex-col gap-10">
           <h3 className="text-5xl font-bold">
