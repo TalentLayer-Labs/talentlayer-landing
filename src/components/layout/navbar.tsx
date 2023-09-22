@@ -34,7 +34,7 @@ export const Navbar = () => {
   return (
     <header className="relative">
       <Container className="flex h-20 w-full items-center justify-between">
-        <Logo className="hidden sm:block" />
+        <Logo className="" />
         <div className="flex items-center gap-4">
           <div className="hidden items-center gap-2 md:flex">
             <NavItem text="docs" href="https://docs.talentlayer.org/" />

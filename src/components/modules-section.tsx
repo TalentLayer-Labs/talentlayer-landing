@@ -51,7 +51,7 @@ const ModuleCard = ({
 
 export const ModulesSection = () => {
   return (
-    <section>
+    <section id="tools">
       <Container className="flex flex-col gap-6 py-32">
         <h3 className="max-w-[44rem] text-5xl font-bold">
           advanced tools <span className="text-primary">specialized</span> for{" "}
@@ -91,10 +91,17 @@ export const ModulesSection = () => {
           />
           <ModuleCard
             icon={<StarIcon />}
-            title="TalentLayer SDK"
-            description="fork-able UI elements to make it faster than ever to integrate with TalentLayer. an example app to help you get started."
+            title="TalentLayer StarterKit"
+            description="fork-able mobile-first marketplace boilerplate to help you go to market fast."
             buttonLabel="fork the demo app"
             buttonHref="https://docs.talentlayer.org/technical-guides/dapp-setup-1"
+          />
+          <ModuleCard
+            icon={<StarIcon />}
+            title="TalentLayer SDK"
+            description="a React and Node JS SDK, complete with a UI library."
+            buttonLabel="coming soon"
+            buttonHref="https://github.com/TalentLayer/talentlayer-sdk"
           />
         </div>
       </Container>

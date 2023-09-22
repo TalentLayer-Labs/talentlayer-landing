@@ -10,9 +10,9 @@ export const Hero = () => {
     <section className="relative">
       <Container className="relative flex flex-col items-center gap-20 pb-40 pt-14 sm:pt-40 md:flex-row">
         <div className="order-2 flex flex-col gap-10">
-          <h1 className="text-6xl font-bold">
+          <h1 className="text-5xl font-bold sm:text-6xl">
             building <a className="text-primary">work tech</a> doesn&apos;t have to be{" "}
-            <span className="text-6xl font-bold italic text-primary">hard work</span>.
+            <span className="font-bold italic text-primary">hard work</span>.
           </h1>
           <p className="max-w-[40rem] text-xl text-base-content-neutral sm:max-w-[40rem]">
             TalentLayer is an 🌐 open protocol and ⚒️ developer toolkit for building better hiring

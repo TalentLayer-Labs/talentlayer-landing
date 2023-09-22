@@ -32,7 +32,7 @@ export const Logo = ({ href = "/", className }: LogoProps) => {
           alt="Logo"
         />
       )}
-      <span className={clsx("text-xl font-black", className)}>TalentLayer</span>
+      <h1 className={clsx("text-xl font-black", className)}>TalentLayer</h1>
     </Link>
   );
 };

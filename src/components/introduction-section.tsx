@@ -16,13 +16,15 @@ export const IntroducationSecion = () => {
   return (
     <section className="relative bg-base-content py-24 text-center text-base-100">
       <Container className="flex flex-col items-center gap-10">
-        <div className="order-2 flex flex-col gap-10">
-          <h3 className="text-5xl font-bold">
-            build on a <span className="italic text-primary">solid foundation</span>
+        <div className="order-3 flex flex-col gap-10 text-center">
+          <h3 className="pt-10 text-5xl font-bold">
+            an ecosystem of <span className="italic">platforms</span>
+            <br></br> on a <span className="italic text-primary">shared network</span>
           </h3>
           <p className="max-w-[40rem] text-xl text-base-100/80 sm:max-w-[40rem]">
-            TalentLayer is the only off-the-shelf, open source, composable developer toolkit for
-            building interoperable freelance, gig, and hiring platforms.
+            TalentLayer helps platforms increase fulfillment of work posts by pooling users -
+            enabling seamless transactions between users on different platforms. this helps you 🧑
+            increase user retention, 👋 improve user experience, and 💰 increase profit
           </p>
           <a href={DOCS_URL} target="_blank" rel="noreferrer">
             <Button className="whitespace-nowrap" size="lg" block>
@@ -31,7 +33,7 @@ export const IntroducationSecion = () => {
           </a>
         </div>
         <div
-          className="group relative order-1 cursor-pointer sm:order-1"
+          className="group relative order-2 cursor-pointer sm:order-1"
           onClick={() => setShowVideo(true)}
         >
           <Image
@@ -55,7 +57,7 @@ export const IntroducationSecion = () => {
                       className="absolute inset-0"
                       width="100%"
                       height="100%"
-                      src="https://www.youtube.com/embed/CsacqlCHlzE?autoplay=1"
+                      src="https://www.youtube.com/embed/sk48U8fxd6w?autoplay=1"
                       title="YouTube video player"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
