@@ -1,10 +1,6 @@
-"use client";
 import Image from "next/image";
 
-import { DOCS_URL } from "@/constants/urls";
-
 import { Container } from "./layout/container";
-import { Button } from "./ui/button";
 
 export const DiagramSection = () => {
   return (
