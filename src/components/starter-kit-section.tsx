@@ -26,7 +26,7 @@ export const StarterKitSection = () => {
 
           <div className="flex flex-col gap-4 min-[500px]:flex-row">
             <a
-              href="https://starter-kit-xmtp-tl.vercel.app/"
+              href="https://tl-starter-kit.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="flex-1 whitespace-nowrap"
