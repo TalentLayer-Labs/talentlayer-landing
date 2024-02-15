@@ -6,11 +6,11 @@ import { Container } from "./layout/container";
 
 export const StarterKitSection = () => {
   return (
-    <section className="relative bg-primary text-base-100">
+    <section className="relative bg-base-content text-base-100">
       <Container className="relative flex flex-col items-center gap-20 py-10 md:flex-row">
         <div className="order-2 flex flex-col gap-10">
           <h1 className="text-6xl font-bold">
-            meet <span className="text-secondary">StarterKit</span>
+            meet <span className="text-primary">StarterKit</span>
           </h1>
           <p className="max-w-[40rem] text-xl text-base-100 sm:max-w-[40rem]">
             StarterKit is your fastest way to get started building your mobile-first hiring
@@ -31,8 +31,8 @@ export const StarterKitSection = () => {
               rel="noreferrer"
               className="flex-1 whitespace-nowrap"
             >
-              <Button className="btn-secondary" size="lg" block>
-                learn More
+              <Button className="btn-primary" size="lg" block>
+                learn more
               </Button>
             </a>
           </div>

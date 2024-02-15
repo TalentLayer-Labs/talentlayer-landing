@@ -58,8 +58,8 @@ export const ModulesSection = () => {
           <span className="italic">work platforms</span>
         </h3>
         <p className="max-w-[50rem] text-lg font-bold text-base-content">
-          don’t settle for retrofitting generalized developer tools or spending months building your
-          backend from scratch. use the toolkit designed for work marketplaces.
+          TalentLayer provudes modular tools to help hiring platforms go to market fast and grow
+          their network of users and work opportunities.
         </p>
         <p className="max-w-[50rem] text-lg text-base-content-neutral">
           launch your platform fast with configurable escrow, user-owned identities, jobs and
@@ -68,6 +68,20 @@ export const ModulesSection = () => {
           the rest.
         </p>
         <div className="mb-6 mt-10 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2">
+          <ModuleCard
+            icon={<StarIcon />}
+            title="TalentLayer API Aggregator Endpoint"
+            description="access a read-only feed of over 1 million real-time freelance jobs from major marketplaces."
+            buttonLabel="request access"
+            buttonHref="https://tally.so/r/wkNBLe"
+          />
+          <ModuleCard
+            icon={<StarIcon />}
+            title="TalentLayer Web 3 API"
+            description="a React and Node JS SDK, complete with a UI library - designed for teams building web 3 native hiring apps"
+            buttonLabel="read the docs"
+            buttonHref="https://github.com/TalentLayer/talentlayer-sdk"
+          />
           <ModuleCard
             icon={<CurrencyDollarIcon />}
             title="escrow and dispute resolution"
@@ -84,24 +98,10 @@ export const ModulesSection = () => {
           />
           <ModuleCard
             icon={<CheckBadgeIcon />}
-            title="universal reviews system"
-            description="a lightweight user profile and review system tailored to work reputation and composable with other identity solutions"
+            title="universal user identity"
+            description="a lightweight user profile and review system - designed to be interoperable across platforms"
             buttonLabel="reveiw docs"
             buttonHref="https://docs.talentlayer.org/basics/basics/reviews-and-reputation"
-          />
-          <ModuleCard
-            icon={<StarIcon />}
-            title="TalentLayer StarterKit"
-            description="fork-able mobile-first marketplace boilerplate to help you go to market fast."
-            buttonLabel="fork the demo app"
-            buttonHref="https://docs.talentlayer.org/technical-guides/dapp-setup-1"
-          />
-          <ModuleCard
-            icon={<StarIcon />}
-            title="TalentLayer SDK"
-            description="a React and Node JS SDK, complete with a UI library."
-            buttonLabel="coming soon"
-            buttonHref="https://github.com/TalentLayer/talentlayer-sdk"
           />
         </div>
       </Container>

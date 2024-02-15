@@ -70,7 +70,8 @@ export const TeamSection = () => {
           </h3>
           <p className="max-w-[40rem] pt-5 text-xl sm:max-w-[40rem]">
             TalentLayer has been funded by grants from The European Union, Lens Protocol, Filecoin
-            Foundation and others. we&apos;ve accepted small investments as part of accelerators.
+            Foundation and others and investment from Protocol Labs, Kleros Collective, and Outlier
+            Ventures.
           </p>
         </div>
         <div className="order-4 sm:order-4">
