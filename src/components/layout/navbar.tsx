@@ -5,7 +5,6 @@ import { clsx } from "clsx";
 import { useState } from "react";
 
 import { Logo } from "@/components/logo";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 import { Container } from "./container";
 import { MobileMenu } from "./mobile-menu";
@@ -41,13 +40,8 @@ export const Navbar = () => {
             <NavItem text="dune" href="https://dune.com/talentlayer/dashboard" />
             <NavItem text="blog" href="https://medium.com/talentlayer" />
             <NavItem text="social media" href="https://linktr.ee/talentlayer" />
-            <NavItem
-              text="litepaper"
-              href="https://github.com/TalentLayer/talentlayer-litepaper/blob/main/TalentLayer%20Litepaper.pdf"
-            />
-            <NavItem text="claim TLID" href="https://claim.talentlayer.org/" />
           </div>
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
 
           <button
             onClick={() => setShowMenu((show) => !show)}

@@ -41,13 +41,14 @@ module.exports = {
         },
       },
       {
-        dark: {
-          ...require("daisyui/src/theming/themes")["[data-theme=dark]"],
+        light: {
+          ...require("daisyui/src/theming/themes")["[data-theme=light]"],
           primary: "#3a6af0",
           "primary-focus": "#1e3c61",
           secondary: "#fbbf24",
-          "base-100": "#0a0a0a",
-          "base-content": "#fff",
+          "base-content": "#0a0a0a",
+          "base-100": "#ffffff",
+          "base-200": "#ffffff",
           "--btn-text-case": "none",
           "--rounded-btn": "0.75rem",
         },

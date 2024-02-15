@@ -27,16 +27,6 @@ export const VisionSection = () => {
             <li>⭐ 100% user-owned accounts - never loose your reputation</li>
           </ul>
           <div className="flex flex-col gap-4 min-[500px]:flex-row">
-            <a
-              href="https://claim.talentlayer.org/"
-              target="_blank"
-              rel="noreferrer"
-              className="flex-1"
-            >
-              <Button color="secondary" className="whitespace-nowrap text-black" size="lg" block>
-                create a TalentLayer ID
-              </Button>
-            </a>
             <a href="#platforms" rel="noreferrer" className="flex-1">
               <Button color="primary" className="whitespace-nowrap" size="lg" block>
                 explore the hiring platforms
@@ -47,24 +37,6 @@ export const VisionSection = () => {
         <div className="order-2 flex flex-col gap-10">
           <div className="order-1 sm:order-3 sm:block">
             <Image src="/shria.png" width={800} height={600} alt="TalentLayer" />
-          </div>
-        </div>
-      </Container>
-      <Container>
-        <div className="rounded-box bg-base-300 p-10">
-          <div className="order-2 flex flex-col gap-10 ">
-            <h2 className="mb-0 text-3xl text-black">TalentLayer for platforms</h2>
-            <h3 className="mb-2 text-3xl sm:text-5xl font-bold text-black">
-              💪 empower your users with{" "}
-              <span className="italic text-primary">interoperable reputation</span>
-            </h3>
-            <p className="text-black">
-              TalentLayer enables workers and hirers to grow one unified and user-owned reputation
-              across all integrated platforms. this is possible thanks to blockchain technology -
-              work history, reviews, and transactions are stored on-chain at the network level. what
-              does that mean for users? their reputation is owned by them, forever - backed by the
-              blockchain and accessible everywhere.
-            </p>
           </div>
         </div>
       </Container>

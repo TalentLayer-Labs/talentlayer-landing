@@ -8,17 +8,15 @@ import { ModulesSection } from "@/components/modules-section";
 import { NewsletterSection } from "@/components/newsletter-section";
 import { StarterKitSection } from "@/components/starter-kit-section";
 import { TeamSection } from "@/components/team-section";
-import { VisionSection } from "@/components/vision-section";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <DiagramSection />
-      <ModulesSection />
       <IntroducationSecion />
+      <ModulesSection />
+      <DiagramSection />
       <IntegrationsSection />
-      <VisionSection />
       <StarterKitSection />
       <TeamSection />
       <NewsletterSection />
