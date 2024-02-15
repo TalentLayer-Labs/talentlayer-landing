@@ -59,84 +59,48 @@ export const IntegrationsSection = () => {
     <section id="platforms">
       <Container className="flex flex-col gap-6 py-32">
         <h3 className="max-w-[44rem] text-5xl font-bold">
-          what are people <span className="italic text-primary">building</span>?
+          built on <span className="italic text-primary">talentlayer</span>
         </h3>
-        <p className="max-w-[40rem] text-xl sm:max-w-[40rem]">
-          teams from around the world are building hiring tech using TalentLayer. check out a few of
-          them below!
+        <p className="max-w-[50rem] text-lg font-bold text-base-content">
+          explore our growing ecosystem of platforms, built on the network layer for the service
+          economy
         </p>
         <div className="mb-6 mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
           <IntegrationCard
             icon="/workx.png"
             title="WorkX"
             description="ai-powered hiring marketplace; get real-time reccomendations, proposal/job post-writing suggestions, and more"
-            buttonLabel="register today"
+            buttonLabel="find work or hire"
             buttonHref="https://workx.io/"
             tag="👋 public beta"
             tagColor="success"
           />
           <IntegrationCard
-            icon="/workpod.png"
-            title="WorkPod"
-            description="bounty platform for hiring top independent security auditors"
-            buttonLabel="register today"
-            buttonHref="https://www.workpodapp.com/"
-            tag="🥷 private beta"
-            tagColor="info"
+            icon="/freelancesearch.png"
+            title="Freelance Search"
+            description="the #1 ChatGPT app for freelancers - search over 1 million jobs from major freelance platforms today"
+            buttonLabel="find work"
+            buttonHref="https://chat.openai.com/g/g-QB87HwILP-freelance-search"
+            tag="👋  public beta"
+            tagColor="success"
           />
           <IntegrationCard
-            icon="/beetogether.png"
-            title="BeeTogether"
-            description="freelance collective management platform"
-            buttonLabel="view the project"
-            buttonHref="https://www.beetogether.work/"
-            tag="🏆 hackathon winner"
-            tagColor="warning"
+            icon="/builderplace.png"
+            title="BuilderPlace"
+            description="build your own custom bounty platform in less than 10 minutes"
+            buttonLabel="get a bounty board"
+            buttonHref="https://www.builder.place/"
+            tag="👋  public beta"
+            tagColor="success"
           />
           <IntegrationCard
-            icon="/zkpay.png"
-            title="ZKPay"
-            description="privacy-centric payroll application"
-            buttonLabel="view the project"
-            buttonHref="https://www.zk-pay.io/"
-            tag="🏆 hackathon winner"
-            tagColor="warning"
-          />
-          <IntegrationCard
-            icon="/influlenser.png"
-            title="Influlenser"
-            description="influencer marketing marketplace"
-            buttonLabel="view the project"
-            buttonHref="https://ethglobal.com/showcase/influlenser-dcvrj"
-            tag="🏆 hackathon winner"
-            tagColor="warning"
-          />
-          <IntegrationCard
-            icon="/trustky.png"
-            title="Trustky"
-            description="privacy-centric digital resume builder"
-            buttonLabel="view the project"
-            buttonHref="https://trustky-rouge.vercel.app/"
-            tag="🏆 hackathon winner"
-            tagColor="warning"
-          />
-          <IntegrationCard
-            icon="/zkpow.png"
-            title="zkPOW"
-            description="privacy-centric work reputation aggregator"
-            buttonLabel="view the project"
-            buttonHref="https://taikai.network/ethporto/hackathons/ethportohackathon2023/projects/clfd3v5pp104522101yfjvhrngbv/idea"
-            tag="🏆 hackathon winner"
-            tagColor="warning"
-          />
-          <IntegrationCard
-            icon="/raccoon.jpeg"
-            title="where's my project?"
-            description="see something missing? contact us!"
-            buttonLabel="☎️  contact us"
-            buttonHref="https://docs.talentlayer.org/quick-start-integration-guide"
-            tag="🍀 awesome project"
-            tagColor="info"
+            icon="/developerdao.png"
+            title="Developer DAO Bounty Board"
+            description="the official bounty board of Developer DAO, the largest web 3 developer community"
+            buttonLabel="discover bounties"
+            buttonHref="https://developerdao.builder.place/"
+            tag="👋  public beta"
+            tagColor="success"
           />
         </div>
       </Container>

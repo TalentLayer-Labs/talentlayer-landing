@@ -27,16 +27,6 @@ export const UserSection = () => {
             <li>⭐ 100% user-owned accounts - never loose your reputation</li>
           </ul>
           <div className="flex flex-col gap-4 min-[500px]:flex-row">
-            <a
-              href="https://claim.talentlayer.org/"
-              target="_blank"
-              rel="noreferrer"
-              className="flex-1"
-            >
-              <Button color="secondary" className="whitespace-nowrap text-black" size="lg" block>
-                create a TalentLayer ID
-              </Button>
-            </a>
             <a href="#" target="_blank" rel="noreferrer" className="flex-1">
               <Button color="success" className="whitespace-nowrap" size="lg" block>
                 explore the hiring platforms

@@ -15,7 +15,7 @@ export const Hero = () => {
             <span className="font-bold text-primary">service economy</span>.
           </h1>
           <p className="max-w-[40rem] text-xl text-base-content-neutral sm:max-w-[40rem]">
-            TalentLayer is an 🌐 open protocol and ⚒️ developer toolkit for building better hiring
+            TalentLayer is an 🌐 open protocol and ⚒️ developer toolkit for building better service
             marketplaces
           </p>
 
