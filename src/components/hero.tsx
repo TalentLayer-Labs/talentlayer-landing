@@ -8,19 +8,19 @@ import { Container } from "./layout/container";
 export const Hero = () => {
   return (
     <section className="relative">
-      <Container className="relative flex flex-col items-center gap-20 pb-20 pt-14 sm:py-40  md:flex-row">
+      <Container className="relative flex flex-col items-center gap-20 pb-40 pt-14 sm:pt-40 md:flex-row">
         <div className="order-2 flex flex-col gap-10">
-          <p className="text-5xl font-bold sm:text-6xl">
-            building <span className="text-primary">work tech</span> doesn&apos;t have to be{" "}
-            <span className="font-bold italic text-primary">hard work</span>.
-          </p>
+          <h1 className="text-5xl font-bold sm:text-6xl">
+            the global <a className="text-primary">network layer</a> for the{" "}
+            <span className="font-bold text-primary">service economy</span>.
+          </h1>
           <p className="max-w-[40rem] text-xl text-base-content-neutral sm:max-w-[40rem]">
-            TalentLayer is an 🌐 open protocol and ⚒️ developer toolkit for building better hiring
-            platforms.
+            TalentLayer is an 🌐 open protocol and ⚒️ developer toolkit for building better service
+            marketplaces
           </p>
 
           <div className="flex flex-col gap-4 min-[500px]:flex-row">
-            <a href="#user-section" className="flex-1">
+            <a href="#platforms" className="flex-1">
               <Button
                 color="neutral"
                 variant="outline"

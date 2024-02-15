@@ -14,11 +14,10 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <DiagramSection />
-      <ModulesSection />
       <IntroducationSecion />
+      <ModulesSection />
+      <DiagramSection />
       <IntegrationsSection />
-      <VisionSection />
       <StarterKitSection />
       <TeamSection />
       <NewsletterSection />
