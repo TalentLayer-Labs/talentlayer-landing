@@ -58,7 +58,7 @@ export const ModulesSection = () => {
           <span className="italic">work platforms</span>
         </h3>
         <p className="max-w-[50rem] text-lg font-bold text-base-content">
-          TalentLayer provudes modular tools to help hiring platforms go to market fast and grow
+          TalentLayer provides modular tools to help hiring platforms go to market fast and grow
           their network of users and work opportunities.
         </p>
         <p className="max-w-[50rem] text-lg text-base-content-neutral">

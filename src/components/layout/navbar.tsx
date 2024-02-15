@@ -5,7 +5,6 @@ import { clsx } from "clsx";
 import { useState } from "react";
 
 import { Logo } from "@/components/logo";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 import { Container } from "./container";
 import { MobileMenu } from "./mobile-menu";
@@ -41,7 +40,7 @@ export const Navbar = () => {
             <NavItem text="blog" href="https://medium.com/talentlayer" />
             <NavItem text="social media" href="https://linktr.ee/talentlayer" />
           </div>
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
 
           <button
             onClick={() => setShowMenu((show) => !show)}

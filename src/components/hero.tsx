@@ -20,7 +20,7 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col gap-4 min-[500px]:flex-row">
-            <a href="#user-section" className="flex-1">
+            <a href="#platforms" className="flex-1">
               <Button
                 color="neutral"
                 variant="outline"
