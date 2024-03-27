@@ -13,13 +13,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <IntroducationSecion />
-      <ModulesSection />
-      <DiagramSection />
-      <IntegrationsSection />
-      <StarterKitSection />
-      <TeamSection />
-      <NewsletterSection />
+
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-G81QRSGFMR" />
       <Script id="google-analytics">
         {`
