@@ -12,7 +12,7 @@ export const Hero = () => {
             <span className="font-bold text-primary">future of commerce</span>.
           </h1>
           <p className="max-w-[40rem] text-xl text-base-content sm:max-w-[40rem]">
-            your suite of tools to build ai agents with purchasing capabilities
+            your suite of tools to build purchasing automations for hiring and ecommerce
           </p>
           <p className="max-w-[40rem] text-xl text-base-content-neutral sm:max-w-[40rem]">
             coming soon
