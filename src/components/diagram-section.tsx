@@ -10,7 +10,7 @@ export const DiagramSection = () => {
       <Container className="flex flex-col items-center gap-10">
         <div className="order-2 flex flex-col gap-10">
           <Image
-            src="/gpt.png"
+            src="/diagram1.png"
             width={700}
             height={100}
             alt="TalentLayer"
