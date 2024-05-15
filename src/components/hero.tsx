@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import { Button } from "@/components/ui/button";
-import { DOCS_URL } from "@/constants/urls";
 
 import { Container } from "./layout/container";
 
@@ -20,13 +19,12 @@ export const Hero = () => {
           </p>
 
           <div className="flex flex-col gap-4 min-[500px]:flex-row">
-            <a href={DOCS_URL} target="_blank" rel="noreferrer" className="flex-1">
+            <a href="#tools" rel="noreferrer" className="flex-1">
               <Button
                 color="primary"
                 variant="prime"
                 className="whitespace-nowrap text-black"
-                size="lg"
-                block
+                size="lg" // Adjusted size to small
               >
                 learn more
               </Button>
@@ -34,7 +32,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="order-1 hidden sm:order-3 sm:block">
-          <Image src="/maria-phone-half.png" width={800} height={600} alt="TalentLayer" />
+          <Image src="/hero.png" width={400} height={600} alt="TalentLayer" />
         </div>
       </Container>
     </section>

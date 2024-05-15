@@ -25,11 +25,20 @@ export const IntroducationSecion = () => {
         )}
       >
         <div className="flex flex-col gap-4">
-          <div className="flex size-14 items-center justify-center rounded-full border-2 border-primary-content bg-primary">
-            <span className="size-8 text-primary-content">{icon}</span>
+          <div className="flex size-14 items-center justify-center rounded-full">
+            <Image
+              src="/reputation.png"
+              width={700}
+              height={100}
+              alt="TalentLayer"
+              className="group-hover:opacity-80"
+            />
           </div>
-          <h4 className="text-xl font-bold">{title}</h4>
-          <p className="text-base-content-neutral">{description}</p>
+          <h4 className="text-xl font-bold">IT&apos;S HARD TO VERIFY REPUTATIONS</h4>
+          <p className="text-base-content-neutral">
+            Worker profiles aren&apos;t trusted. <br></br>Resumes lie.<br></br> Linkedin reviews are
+            fake.
+          </p>
         </div>
       </div>
     );
@@ -57,27 +66,59 @@ export const IntroducationSecion = () => {
           </p>
         </div>
         <div className="mb-6 mt-10 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-3">
-          <ModuleCard
-            icon="/bubbles.png"
-            title="DISCOVERY"
-            description="Hirers & workers duplicate profiles on dozens of platforms, and still struggle to connect."
-            buttonLabel="request access"
-            buttonHref="https://tally.so/r/wkNBLe"
-          />
-          <ModuleCard
-            icon={<StarIcon />}
-            title="REPUTATION"
-            description="Worker profiles aren't trusted. Resumes lie. Linkedin reviews are fake"
-            buttonLabel="read the docs"
-            buttonHref="https://github.com/TalentLayer/talentlayer-sdk"
-          />
-          <ModuleCard
-            icon={<CurrencyDollarIcon />}
-            title="MIDDLEMEN"
-            description="Recruiters & platforms profiteer on hirers not knowing who to trust.."
-            buttonLabel="escrow docs"
-            buttonHref="https://docs.talentlayer.org/basics/basics/escrow-and-dispute"
-          />
+          <div className="rounded-box flex flex-col items-start justify-between bg-black p-6">
+            <div className="flex flex-col gap-4">
+              <div className="flex size-14 items-center justify-center rounded-full">
+                <Image
+                  src="/discovery.png"
+                  width={700}
+                  height={100}
+                  alt="TalentLayer"
+                  className="group-hover:opacity-80"
+                />
+              </div>
+              <h4 className="text-xl font-bold">DISCOVERY IS FRAGMENTED</h4>
+              <p className="text-base-content-neutral">
+                Hirers & workers duplicate profiles on dozens of platforms, and still struggle to
+                connect.
+              </p>
+            </div>
+          </div>
+          <div className="rounded-box flex flex-col items-start justify-between bg-black p-6">
+            <div className="flex flex-col gap-4">
+              <div className="flex size-14 items-center justify-center rounded-full">
+                <Image
+                  src="/reputation.png"
+                  width={700}
+                  height={100}
+                  alt="TalentLayer"
+                  className="group-hover:opacity-80"
+                />
+              </div>
+              <h4 className="text-xl font-bold">IT&apos;S HARD TO VERIFY REPUTATIONS</h4>
+              <p className="text-base-content-neutral">
+                Worker profiles aren&apos;t trusted. <br></br>Resumes lie.<br></br> Linkedin reviews
+                are fake.
+              </p>
+            </div>
+          </div>
+          <div className="rounded-box flex flex-col items-start justify-between bg-black p-6">
+            <div className="flex flex-col gap-4">
+              <div className="flex size-14 items-center justify-center rounded-full">
+                <Image
+                  src="/middlemen.png"
+                  width={700}
+                  height={100}
+                  alt="TalentLayer"
+                  className="group-hover:opacity-80"
+                />
+              </div>
+              <h4 className="text-xl font-bold">MIDDLEMEN GATEKEEP WORKERS</h4>
+              <p className="text-base-content-neutral">
+                Recruiters & platforms profiteer on hirers not knowing who to trust.
+              </p>
+            </div>
+          </div>
         </div>
       </Container>
     </section>

@@ -14,16 +14,22 @@ export const Footer = () => {
             <p>TalentLayer, 2023</p>
           </a>
           <a className="shrink-0 md:flex-1" target="_blank" rel="noreferrer">
-            <Image src="/racoon.png" width={50} height={50} alt="TalentLayer" />
+            <Image src="/raccoon.png" width={50} height={50} alt="TalentLayer" />
           </a>
           <a
-            href="https://docs.talentlayer.org/quick-start-integration-guide"
+            href="https://tally.so/r/wkNBLe"
             className="flex items-center justify-end md:flex-1"
             target="_blank"
             rel="noreferrer"
           >
-            <Button color="neutral" variant="outline" className="whitespace-nowrap" size="lg" block>
-              ☎️ contact us
+            <Button
+              color="secondary"
+              variant="outline"
+              className="whitespace-nowrap"
+              size="sm"
+              block
+            >
+              CONTACT US
             </Button>
           </a>
         </div>
