@@ -70,7 +70,7 @@ export const RevyouSection = () => {
           </p>
           <a rel="noreferrer" className="flex-1">
             <Button
-              color="neutral"
+              color="secondary"
               variant="prime"
               className="whitespace-nowrap text-black"
               size="lg" // Adjusted size to small
