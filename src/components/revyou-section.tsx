@@ -1,55 +1,12 @@
 "use client";
 
-import {
-  CheckBadgeIcon,
-  CurrencyDollarIcon,
-  StarIcon,
-  HandRaisedIcon,
-} from "@heroicons/react/24/outline";
-import { PlayCircleIcon } from "@heroicons/react/24/solid";
-import * as Dialog from "@radix-ui/react-dialog";
-import { clsx } from "clsx";
 import Image from "next/image";
-import { useState } from "react";
-import { ReactNode } from "react";
-
-import { REVYOU_NOTION } from "@/constants/urls";
 
 import { Container } from "./layout/container";
 import { Button } from "./ui/button";
 export const RevyouSection = () => {
-  const [showVideo, setShowVideo] = useState(false);
-
-  interface ModuleCardProps {
-    title: string;
-    description: string;
-    icon: ReactNode;
-    buttonLabel: string;
-    buttonHref: string;
-    className?: string;
-  }
-
-  const ModuleCard = ({ title, description, icon, className }: ModuleCardProps) => {
-    return (
-      <div
-        className={clsx(
-          "rounded-box flex flex-col items-start justify-between bg-black p-6",
-          className,
-        )}
-      >
-        <div className="flex flex-col gap-4">
-          <div className="flex size-14 items-center justify-center rounded-full border-2 border-primary-content bg-primary">
-            <span className="size-8 text-primary-content">{icon}</span>
-          </div>
-          <h4 className="text-xl font-bold">{title}</h4>
-          <p className="text-base-content-neutral">{description}</p>
-        </div>
-      </div>
-    );
-  };
-
   return (
-    <section className="bg-dark relative py-16 text-center text-base-content sm:py-24">
+    <section className="relative py-16 text-center text-base-content sm:py-24">
       <Container className="flex flex-col items-center gap-10">
         <div className="flex flex-col gap-10 text-center">
           <Image
@@ -79,7 +36,7 @@ export const RevyouSection = () => {
             </Button>
           </a>
         </div>
-        <div className="order:3 mb-6 mt-10 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-3">
+        <div className="mb-6 mt-10 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-3">
           <div className="rounded-box flex flex-col items-start justify-between bg-black p-6">
             <div className="flex flex-col gap-4">
               <div className="flex size-14 items-center justify-center rounded-full">
@@ -132,7 +89,7 @@ export const RevyouSection = () => {
                 Revyou!
               </h4>
               <p className="text-base-content-neutral">
-                $REP is the native reward token of the Revyou app. It’s earned by receiving and
+                $REP is the native reward token of the Revyou app. It&apos;s earned by receiving and
                 giving reviews to people in your network.
               </p>
             </div>

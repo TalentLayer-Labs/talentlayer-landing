@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 import { Container } from "./layout/container";
-import { Button } from "./ui/button";
 
 export const TeamSection = () => {
   return (

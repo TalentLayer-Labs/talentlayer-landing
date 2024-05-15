@@ -1,25 +1,6 @@
-import {
-  CheckBadgeIcon,
-  CurrencyDollarIcon,
-  StarIcon,
-  HandRaisedIcon,
-} from "@heroicons/react/24/outline";
-import { clsx } from "clsx";
 import Image from "next/image";
-import { ReactNode } from "react";
 
 import { Container } from "@/components/layout/container";
-
-import { Button } from "./ui/button";
-
-interface ModuleCardProps {
-  title: string;
-  description: string;
-  icon: ReactNode;
-  buttonLabel: string;
-  buttonHref: string;
-  className?: string;
-}
 
 export const ModulesSection = () => {
   return (

@@ -1,49 +1,8 @@
 "use client";
-
-import { CurrencyDollarIcon, StarIcon } from "@heroicons/react/24/outline";
-import { clsx } from "clsx";
 import Image from "next/image";
-import { ReactNode } from "react";
 
 import { Container } from "./layout/container";
 export const IntroducationSecion = () => {
-  interface ModuleCardProps {
-    title: string;
-    description: string;
-    icon: ReactNode;
-    buttonLabel: string;
-    buttonHref: string;
-    className?: string;
-  }
-
-  const ModuleCard = ({ title, description, icon, className }: ModuleCardProps) => {
-    return (
-      <div
-        className={clsx(
-          "rounded-box flex flex-col items-start justify-between bg-secondary p-6",
-          className,
-        )}
-      >
-        <div className="flex flex-col gap-4">
-          <div className="flex size-14 items-center justify-center rounded-full">
-            <Image
-              src="/reputation.png"
-              width={700}
-              height={100}
-              alt="TalentLayer"
-              className="group-hover:opacity-80"
-            />
-          </div>
-          <h4 className="text-xl font-bold">IT&apos;S HARD TO VERIFY REPUTATIONS</h4>
-          <p className="text-base-content-neutral">
-            Worker profiles aren&apos;t trusted. <br></br>Resumes lie.<br></br> Linkedin reviews are
-            fake.
-          </p>
-        </div>
-      </div>
-    );
-  };
-
   return (
     <section className="relative py-16 text-center text-base-content sm:py-24">
       <Container className="flex flex-col items-center gap-10">
