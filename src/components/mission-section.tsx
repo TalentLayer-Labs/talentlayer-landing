@@ -16,8 +16,8 @@ export const MissionSection = () => {
         <p className="mx-auto max-w-[44rem] text-lg text-base-content-neutral">
           The strongest reputation you have is with people you have worked with directly or people
           who know people you&apos;ve worked with. These people can easily understand your work
-          history, because they&apos;ve know you! Unfortunately, these sorts of reputations
-          don&apos;t scale well beyond{" "}
+          history, because they know you! Unfortunately, these sorts of reputations don&apos;t scale
+          well beyond{" "}
           <a
             className="text-secondary"
             href="https://en.wikipedia.org/wiki/Dunbar%27s_number"
