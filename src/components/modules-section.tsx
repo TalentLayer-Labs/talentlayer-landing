@@ -24,6 +24,21 @@ export const ModulesSection = () => {
           TalentLayer leverages blockchain to store review information in a user-owned way, and
           verify payments have been made between hirers and workers.
         </p>
+        <h3 className="mx-auto max-w-[44rem] text-2xl  font-bold sm:text-2xl">
+          Meet , <span className="font-bold text-primary">$TLT</span> the native token of the
+          <span className="font-bold text-primary"> TalentLayer protocol network</span>
+        </h3>
+        <p className="mx-auto max-w-[44rem] text-lg text-base-content-neutral">
+          $TLT helps TalentLayer&apos;s work reputation ecosystem operate fairly by incentivizing
+          network participants to be honest and to sort out fake reviews.
+        </p>
+        <Image
+          src="/economics.png"
+          width={700}
+          height={100}
+          alt="TalentLayer"
+          className="mx-auto group-hover:opacity-80"
+        />
       </Container>
     </section>
   );
