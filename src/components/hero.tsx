@@ -7,7 +7,7 @@ import { Container } from "./layout/container";
 export const Hero = () => {
   return (
     <section className="relative">
-      <Container className="relative flex flex-col items-center gap-20 pb-40 pt-14 sm:pt-40 md:flex-row">
+      <Container className="relative flex flex-col items-center gap-20 pb-40 pt-14 sm:pt-20 md:flex-row">
         <div className="order-2 flex flex-col gap-10">
           <h1 className="text-5xl font-bold uppercase sm:text-6xl">
             the <a className="text-primary ">trust layer</a> for{" "}

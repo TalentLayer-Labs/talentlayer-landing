@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Montserrat } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
 import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
@@ -8,7 +8,7 @@ import { ThemeProvider } from "@/providers/theme-provider";
 
 import type { Metadata } from "next";
 
-const inter = Montserrat({ subsets: ["latin"], weight: ["400"] });
+const inter = Space_Grotesk({ subsets: ["latin"], weight: ["400"] });
 
 const siteConfig = {
   name: "TalentLayer",

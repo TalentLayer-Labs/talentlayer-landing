@@ -31,9 +31,9 @@ export const MissionSection = () => {
           In the mid 2000s freelance platforms became the solution to this scaling problem.
           Freelancing and online work platforms have created powerful reputation networks that let
           people who&apos;ve never met eachother trust one another. The platform itself becomes a
-          verifier of your work history - because people trust the reviews you have been given on
-          the platform, these reputations are more scaleable. But, because of how these platforms
-          are designed, these reputations are also more vulnerable.
+          verifier of your work history, because the platform controls all hiring that happens on it
+          - this is why people trust the visible work history on your profile. But, because of how
+          these platforms are designed, these reputations are also more vulnerable.
         </p>{" "}
         <p className="mx-auto max-w-[44rem] text-lg text-base-content-neutral">
           At the will of a company&apos;s internal policy change, a 
