@@ -1,45 +1,57 @@
 "use client";
+
 import Image from "next/image";
 
 import { Container } from "./layout/container";
-export const IntroducationSecion = () => {
+import { Button } from "./ui/button";
+export const RevyouSection = () => {
   return (
     <section className="relative py-16 text-center text-base-content sm:py-24">
       <Container className="flex flex-col items-center gap-10">
         <div className="flex flex-col gap-10 text-center">
           <Image
-            src="/bubbles.png"
-            width={700}
+            src="/revyou.png"
+            width={400}
             height={100}
             alt="TalentLayer"
-            className="group-hover:opacity-80"
+            className="mx-auto group-hover:opacity-80"
           />
           <h3 className="pt-10 text-5xl font-bold uppercase">
-            How do we know<br></br>
-            <span className="text-primary">who to trust</span>
-            <br></br>on the internet?
+            <span className="text-primary">Earn rewards</span> by building{" "}
+            <span className="text-secondary">your reputation</span>
           </h3>
-          <p className="max-w-[40rem] text-xl text-base-content sm:max-w-[40rem]">
-            Each year more and more work and hiring happens online, but how we understand who to
-            work with is stuck in the past.
+          <p className="mx-auto max-w-[40rem] text-center text-xl text-base-content sm:max-w-[40rem]">
+            Revyou is the easiest way to get verified client reviews as a freelancer, and earn
+            rewards for building a reputation. Review is the flagship Social Fi app built on
+            TalentLayer.
           </p>
+          <a rel="noreferrer" className="flex-1">
+            <Button
+              color="secondary"
+              variant="prime"
+              className="whitespace-nowrap text-black"
+              size="lg" // Adjusted size to small
+            >
+              coming soon
+            </Button>
+          </a>
         </div>
         <div className="mb-6 mt-10 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-3">
           <div className="rounded-box flex flex-col items-start justify-between bg-black p-6">
             <div className="flex flex-col gap-4">
               <div className="flex size-14 items-center justify-center rounded-full">
                 <Image
-                  src="/discovery.png"
+                  src="/stars.png"
                   width={700}
                   height={100}
                   alt="TalentLayer"
                   className="group-hover:opacity-80"
                 />
               </div>
-              <h4 className="text-xl font-bold">DISCOVERY IS FRAGMENTED</h4>
+              <h4 className="text-xl font-bold">Social proof closes more deals!</h4>
               <p className="text-base-content-neutral">
-                Hirers & workers duplicate profiles on dozens of platforms, and still struggle to
-                connect.
+                When potential clients see that others have trusted you in the past with good
+                results, they are more likely to work with you.
               </p>
             </div>
           </div>
@@ -47,17 +59,17 @@ export const IntroducationSecion = () => {
             <div className="flex flex-col gap-4">
               <div className="flex size-14 items-center justify-center rounded-full">
                 <Image
-                  src="/reputation.png"
+                  src="/money.png"
                   width={700}
                   height={100}
                   alt="TalentLayer"
                   className="group-hover:opacity-80"
                 />
               </div>
-              <h4 className="text-xl font-bold">IT&apos;S HARD TO VERIFY REPUTATIONS</h4>
+              <h4 className="text-xl font-bold">Charge higher rates and earn more income.</h4>
               <p className="text-base-content-neutral">
-                Worker profiles aren&apos;t trusted. <br></br>Resumes lie.<br></br> Linkedin reviews
-                are fake.
+                Freelancers that display a track record of success stories can charge up to 300%
+                more than freelancers who don’t.
               </p>
             </div>
           </div>
@@ -65,16 +77,20 @@ export const IntroducationSecion = () => {
             <div className="flex flex-col gap-4">
               <div className="flex size-14 items-center justify-center rounded-full">
                 <Image
-                  src="/middlemen.png"
+                  src="/tokens1.png"
                   width={700}
                   height={100}
                   alt="TalentLayer"
                   className="group-hover:opacity-80"
                 />
               </div>
-              <h4 className="text-xl font-bold">MIDDLEMEN GATEKEEP WORKERS</h4>
+              <h4 className="text-xl font-bold">
+                Earn <span className="text-primary">$REP</span> by building your reputation on
+                Revyou!
+              </h4>
               <p className="text-base-content-neutral">
-                Recruiters & platforms profiteer on hirers not knowing who to trust.
+                $REP is the native reward token of the Revyou app. It&apos;s earned by receiving and
+                giving reviews to people in your network.
               </p>
             </div>
           </div>

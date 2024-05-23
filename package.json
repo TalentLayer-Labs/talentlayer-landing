@@ -9,6 +9,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "test_prod": "NODE_ENV=production && next build && next start",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
