@@ -1,6 +1,5 @@
 "use client";
 
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { clsx } from "clsx";
 import { useState } from "react";
 
@@ -20,7 +19,9 @@ const NavItem = ({ text, href }: NavItemProps) => {
       target="_blank"
       rel="noreferrer"
       href={href}
-      className={clsx("rounded-btn px-4 py-2 font-medium hover:bg-base-200")}
+      className={clsx(
+        "rounded-btn px-4 py-2 font-medium border-2 bg-black border-white hover:bg-white hover:text-black transition-all",
+      )}
     >
       {text}
     </a>
@@ -34,20 +35,20 @@ export const Navbar = () => {
     <header className="relative">
       <Container className="flex h-20 w-full items-center justify-between">
         <Logo className="" />
-        <div className="flex items-center gap-4">
-          <div className="hidden items-center gap-2 md:flex">
+        <div className="flex items-center sm:gap-4">
+          <div className="items-center gap-2 flex">
             <NavItem text="Follow us on X" href="https://twitter.com/talentlayer?lang=en" />
           </div>
           {/* <ThemeToggle /> */}
 
-          <button
+          {/* <button
             onClick={() => setShowMenu((show) => !show)}
             className="rounded-btn p-1.5 hover:bg-base-200 md:hidden"
             aria-expanded="false"
           >
             <span className="sr-only">{showMenu ? "Close menu" : "Open menu"}</span>
             {showMenu ? <XMarkIcon className="size-6" /> : <Bars3Icon className="size-6" />}
-          </button>
+          </button> */}
         </div>
       </Container>
 

@@ -15,7 +15,7 @@ export const Footer = () => {
               <Image src="/raccoon.png" width={48} height={48} alt="TalentLayer" />
             </a>
             <a href={DOCS_URL} target="_blank" rel="noreferrer">
-              <p>TalentLayer, 2023</p>
+              <p>TalentLayer, 2024</p>
             </a>
           </div>
           <a
@@ -27,7 +27,7 @@ export const Footer = () => {
             <Button
               color="secondary"
               variant="outline"
-              className="whitespace-nowrap"
+              className="whitespace-nowrap border-2"
               size="sm"
               block
             >

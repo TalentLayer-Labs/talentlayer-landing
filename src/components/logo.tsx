@@ -1,7 +1,6 @@
 import { clsx } from "clsx";
-import Image from "next/image";
-import Link from "next/link";
 import { useTheme } from "next-themes";
+import Link from "next/link";
 
 export interface LogoProps {
   href?: string;
@@ -12,21 +11,21 @@ export const Logo = ({ href = "/", className }: LogoProps) => {
   const { theme } = useTheme();
 
   return (
-    <Link href={href} className="flex items-center gap-3">
+    <Link href={href} className="flex items-center gap-2">
       {theme === "light" ? (
-        <Image
+        <img
           className="block h-7 w-7 rounded-full"
           src="/icon.png"
-          width={40}
-          height={40}
+          width={44}
+          height={44}
           alt="Logo"
         />
       ) : (
-        <Image
+        <img
           className="block h-7 w-7 rounded-full"
           src="/icon_light.png"
-          width={40}
-          height={40}
+          width={44}
+          height={44}
           alt="Logo"
         />
       )}

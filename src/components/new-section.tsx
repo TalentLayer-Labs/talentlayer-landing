@@ -1,9 +1,3 @@
-import {
-  CheckBadgeIcon,
-  CurrencyDollarIcon,
-  StarIcon,
-  HandRaisedIcon,
-} from "@heroicons/react/24/outline";
 import { clsx } from "clsx";
 import { ReactNode } from "react";
 
@@ -20,7 +14,7 @@ interface ModuleCardProps {
   className?: string;
 }
 
-const ModuleCard = ({
+export const ModuleCard = ({
   title,
   description,
   icon,

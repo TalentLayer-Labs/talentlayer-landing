@@ -10,7 +10,7 @@ import { TeamSection } from "@/components/team-section";
 
 export default function Home() {
   return (
-    <>
+    <div className="animate-in">
       <Hero />
       <IntroducationSecion />
       <ModulesSection />
@@ -29,6 +29,6 @@ export default function Home() {
           gtag('config', 'G-G81QRSGFMR');
         `}
       </Script>
-    </>
+    </div>
   );
 }

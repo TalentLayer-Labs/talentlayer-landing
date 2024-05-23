@@ -9,6 +9,6 @@ interface ContainerProps {
 
 export const Container = ({ children, className }: ContainerProps) => {
   return (
-    <div className={twMerge(clsx("mx-auto max-w-6xl px-4 sm:px-6", className))}>{children}</div>
+    <div className={twMerge(clsx("mx-auto max-w-6xl px-6 sm:px-6", className))}>{children}</div>
   );
 };

@@ -1,6 +1,6 @@
 import { VariantProps, cva } from "class-variance-authority";
 import { clsx } from "clsx";
-import { ButtonHTMLAttributes, forwardRef, ReactNode, Ref } from "react";
+import { ButtonHTMLAttributes, ReactNode, Ref, forwardRef } from "react";
 import { twMerge } from "tailwind-merge";
 
 const buttonVariants = cva(
@@ -96,6 +96,7 @@ export const Button = forwardRef(
         ref={ref}
         disabled={disabled}
         className={twMerge(
+          "hover:opacity-75 transition-opacity",
           clsx(
             buttonVariants({ color, variant, size }),
             (variant === "ghost" || variant === "link") && textColorVariants({ color }),
