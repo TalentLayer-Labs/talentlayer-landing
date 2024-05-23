@@ -56,6 +56,10 @@ export const MissionSection = () => {
           over time to extract value from you, knowing that you wont likley leave.
         </p>
         <p className="mx-auto max-w-[44rem] text-lg text-base-content-neutral">
+          Because of these issues, over 80% of freelancers don&apos;t use platforms! As a result,
+          their reputations are severley limited.
+        </p>
+        <p className="mx-auto max-w-[44rem] text-lg text-base-content-neutral">
           Is it possible to scale reputation past Dunbar&apos;s number without a middleman?
         </p>{" "}
         <p className="mx-auto max-w-[44rem] text-lg text-base-content-neutral">
