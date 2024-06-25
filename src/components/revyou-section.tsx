@@ -17,29 +17,29 @@ export const RevyouSection = () => {
             className="mx-auto group-hover:opacity-80"
           />
           <h3 className="pt-10 text-5xl font-bold uppercase">
-            <span className="text-primary">Earn rewards</span> by building{" "}
-            <span className="text-secondary">your reputation</span>
+            <span className="text-primary">Collect reviews. </span> Get hired.{" "}
+            <span className="text-secondary">Keep your freedom.</span>
           </h3>
           <p className="mx-auto max-w-[40rem] text-center text-xl text-base-content sm:max-w-[40rem]">
             Revyou is the easiest way to get verified client reviews as a freelancer, and earn
-            rewards for building a reputation. Review is the flagship Social Fi app built on
-            TalentLayer.
+            rewards for building a reputation. Revyou gives freelancers the tools to build a
+            reputation and discover clients without sacrificing their freedom.
           </p>
-          <a rel="noreferrer" className="flex-1">
+          <a rel="noreferrer" target="_blank" href="https://www.revyou.xyz/" className="flex-1">
             <Button
               color="secondary"
               variant="prime"
               className="whitespace-nowrap text-black"
               size="lg" // Adjusted size to small
             >
-              coming soon
+              get Revyou
             </Button>
           </a>
         </div>
         <div className="mb-6 mt-10 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-3">
           <div className="rounded-box flex flex-col items-start justify-between bg-black p-6">
             <div className="flex flex-col gap-4">
-              <div className="flex size-14 items-center justify-center rounded-full">
+              <div className="size-14 flex items-center justify-center rounded-full">
                 <Image
                   src="/stars.png"
                   width={700}
@@ -57,7 +57,7 @@ export const RevyouSection = () => {
           </div>
           <div className="rounded-box flex flex-col items-start justify-between bg-black p-6">
             <div className="flex flex-col gap-4">
-              <div className="flex size-14 items-center justify-center rounded-full">
+              <div className="size-14 flex items-center justify-center rounded-full">
                 <Image
                   src="/money.png"
                   width={700}
@@ -75,9 +75,9 @@ export const RevyouSection = () => {
           </div>
           <div className="rounded-box flex flex-col items-start justify-between bg-black p-6">
             <div className="flex flex-col gap-4">
-              <div className="flex size-14 items-center justify-center rounded-full">
+              <div className="size-14 flex items-center justify-center rounded-full">
                 <Image
-                  src="/tokens1.png"
+                  src="/tokens2.png"
                   width={700}
                   height={100}
                   alt="TalentLayer"
@@ -85,12 +85,11 @@ export const RevyouSection = () => {
                 />
               </div>
               <h4 className="text-xl font-bold">
-                Earn <span className="text-primary">$REP</span> by building your reputation on
-                Revyou!
+                Earn <span className="text-primary">REP points</span> by building your reputation
               </h4>
               <p className="text-base-content-neutral">
-                $REP is the native reward token of the Revyou app. It&apos;s earned by receiving and
-                giving reviews to people in your network.
+                Earn REP points by growing your reputation on Revyou! In the future, REP points will
+                be redeemable for special features, cash rewards, and more.
               </p>
             </div>
           </div>
