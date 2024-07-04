@@ -11,13 +11,7 @@ import { TeamSection } from "@/components/team-section";
 export default function Home() {
   return (
     <div className="animate-in">
-      <Hero />
       <IntroducationSecion />
-      <ModulesSection />
-      <RevyouSection />
-      <Freelancers />
-      <MissionSection />
-      <TeamSection />
 
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-G81QRSGFMR" />
       <Script id="google-analytics">
