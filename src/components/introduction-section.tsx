@@ -1,11 +1,12 @@
 "use client";
 import Image from "next/image";
+import { Button } from "./ui/button";
 
 import { Container } from "./layout/container";
 export const IntroducationSecion = () => {
   return (
     <section className="relative py-16 text-center text-base-content sm:py-24">
-      <Container className="flex flex-col items-center gap-10">
+      <Container className="flex flex-col items-center">
         <div className="flex flex-col gap-10 text-center">
           <div class="flex items-center justify-center">
             <img
@@ -16,14 +17,26 @@ export const IntroducationSecion = () => {
               className="group-hover:opacity-80"
             />
           </div>
-          <h3 className="pt-10 text-5xl font-bold uppercase">
-            We're <br></br>
-            <span className="text-primary">TalentLayer</span>
-          </h3>
+
           <p className="max-w-[40rem] text-xl uppercase text-base-content sm:max-w-[40rem]">
-            We’re a collective of developers who are building products that{" "}
-            <a className="text-primary">radically change how humans work</a> together.
+            a collective of <a className="text-secondary line-through">raccoons</a> developers
+            building products to <a className="text-primary">radically change how humans work</a>{" "}
+            together.
           </p>
+          <p className="max-w-[40rem] text-left text-center text-xl text-base-content sm:max-w-[40rem]">
+            Building Revyou, the easiest way to collect verafied reviews from your freelance
+            clients.
+          </p>
+          <div className="items-center">
+            <Button
+              color="primary"
+              className="w-52 whitespace-nowrap px-4 py-2 text-black"
+              size="lg"
+            >
+              Meet 🤩 Revyou
+            </Button>
+          </div>
+          {/*
           <p className="justify max-w-[40rem] text-left text-xl text-base-content sm:max-w-[40rem]">
             The way we work is rapidly changing...
           </p>
@@ -77,6 +90,7 @@ export const IntroducationSecion = () => {
             alt="TalentLayer"
             className="mx-auto group-hover:opacity-80"
           />
+          */}
         </div>
       </Container>
     </section>
