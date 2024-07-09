@@ -1,12 +1,5 @@
 import Script from "next/script";
-
-import { Freelancers } from "@/components/freelancers";
-import { Hero } from "@/components/hero";
 import { IntroducationSecion } from "@/components/introduction-section";
-import { MissionSection } from "@/components/mission-section";
-import { ModulesSection } from "@/components/modules-section";
-import { RevyouSection } from "@/components/revyou-section";
-import { TeamSection } from "@/components/team-section";
 
 export default function Home() {
   return (
